@@ -65,12 +65,6 @@ npx expo start --ios
 
 ---
 
-## 🎥 Tanıtım Videosu
-
-> [▶️ YouTube'da İzle](https://youtube.com/watch?v=LINK_BURAYA)
-
----
-
 ## 🏗️ Proje Yapısı
 
 ```
