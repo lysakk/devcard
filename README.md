@@ -75,8 +75,10 @@ npx expo start --ios
 
 ```
 devcard/
-├── App.js          # Ana uygulama ve tüm bileşenler
-├── app.json        # Expo konfigürasyonu
+├── app/
+│   └── (tabs)/
+│       └── index.tsx    # Ana uygulama
+├── app.json
 ├── package.json
 └── README.md
 ```
@@ -92,7 +94,7 @@ devcard/
 
 ## 📸 Ekran Görüntüleri
 
-> *(Ekran görüntülerini buraya ekle)*
+![DevCard](./screenshot.png)
 
 ---
 
