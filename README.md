@@ -1,50 +1,107 @@
-# Welcome to your Expo app 👋
+# 🪪 DevCard — Yazılımcı Kimlik Kartı
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> React Native ile geliştirilmiş, oyunlaştırma mekanikleri içeren interaktif geliştirici profil kartı.
 
-## Get started
+[![React Native](https://img.shields.io/badge/React_Native-0.74-61DAFB?style=flat-square&logo=react)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo-SDK_51-000020?style=flat-square&logo=expo)](https://expo.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📱 Uygulama Hakkında
 
-2. Start the app
+**DevCard**, yazılımcıların dijital kimlik kartını oyunlaştırma mekanikleriyle birleştiren bir React Native uygulamasıdır. İşe alınarak XP kazanırsın, seviye atlarsın ve rozetler kazanırsın!
 
-   ```bash
-   npx expo start
-   ```
+### 🎮 Oyunlaştırma Özellikleri
 
-In the output, you'll find options to open the app in a
+| Özellik | Detay |
+|---|---|
+| **XP Sistemi** | Her "İşe Al"da 50–100 XP kazan |
+| **4 Seviye** | 🌱 Junior → ⚡ Mid → 🔥 Senior → 👑 Principal |
+| **Rozetler** | İlk İş, Popüler Dev, Senior, Principal |
+| **Dinamik UI** | Seviyeye göre renk ve emoji değişimi |
+| **İlerleme Çubuğu** | Anlık XP ve sonraki seviye görünümü |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Nasıl Çalıştırılır?
 
-## Get a fresh project
+### Gereksinimler
+- Node.js 18+
+- Expo CLI
+- Expo Go uygulaması (iOS/Android)
 
-When you're ready, run:
+### Kurulum
 
 ```bash
-npm run reset-project
+# 1. Repoyu klonla
+git clone https://github.com/lysakk/devcard.git
+cd devcard
+
+# 2. Bağımlılıkları yükle
+npm install
+
+# 3. Expo'yu başlat
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Çalıştırma
+```bash
+# Expo Go ile (Telefon)
+# Terminal'deki QR kodu Expo Go uygulamasıyla tara
 
-## Learn more
+# Android emülatör
+npx expo start --android
 
-To learn more about developing your project with Expo, look at the following resources:
+# iOS simülatör
+npx expo start --ios
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 📦 APK İndir
 
-Join our community of developers creating universal apps.
+> [⬇️ DevCard v1.0 APK İndir](https://github.com/lysakk/devcard/releases/tag/v1.0)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🎥 Tanıtım Videosu
+
+> [▶️ YouTube'da İzle](https://youtube.com/watch?v=LINK_BURAYA)
+
+---
+
+## 🏗️ Proje Yapısı
+
+```
+devcard/
+├── App.js          # Ana uygulama ve tüm bileşenler
+├── app.json        # Expo konfigürasyonu
+├── package.json
+└── README.md
+```
+
+## 🧩 Kullanılan Teknolojiler
+
+- **React Native** — Mobil uygulama çatısı
+- **Expo** — Geliştirme ve build ortamı
+- **Animated API** — Pulse animasyonu
+- **React Hooks** — useState, useRef
+
+---
+
+## 📸 Ekran Görüntüleri
+
+> *(Ekran görüntülerini buraya ekle)*
+
+---
+
+## 👤 Geliştirici
+
+**Mehmet Enes Karaviranli** — [@lysakk](https://github.com/lysakk)
+
+---
+
+## 📄 Lisans
+
+MIT © 2025
