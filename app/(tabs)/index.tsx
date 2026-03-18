@@ -246,10 +246,10 @@ export default function HomeScreen() {
       <Text style={styles.baslik}>{'</DevCard>'}</Text>
       <Text style={styles.altBaslik}>Yazılımcı Kimlik Kartı</Text>
       <KimlikKarti
-        ad="Adın Soyadın"
-        uzmanlik="React Native Developer"
-        github="kullaniciad"
-        sehir="İstanbul, TR"
+        ad="Mehmet Enes Karaviranli"
+        uzmanlik="Full Stack Developer"
+        github="https://github.com/lysakk"
+        sehir="Samsun, TR"
       />
     </ScrollView>
   );
